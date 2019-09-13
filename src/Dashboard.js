@@ -17,9 +17,12 @@ class Dashboard extends Component {
             </input>
           </div>
           <h1 className="">Class Detected Mental Illness Symptoms </h1>
-          <div className="section1">Anxiety</div>
-          <div className="section2">Depression</div>
-          <div className="section3">ADHD</div>
+          <div className="section1">Anxiety 3%
+            
+          </div>
+
+          <div className="section2">Depression 4% </div>
+          <div className="section3">ADHD 5%</div>
         </div>
         <Footer />
       </div>

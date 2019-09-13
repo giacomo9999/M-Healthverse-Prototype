@@ -26,20 +26,30 @@ black2: #000000
 
 .section1{
   background-color: #e67651;
+
   height: 2rem;
   padding: 20px;
   font-size: 25px;
   border-bottom-color: black;
 }
+
+.percent{
+  
+  position: absolute;
+  right: 50px;
+  
+  
+
+}
 .section2{
-  background-color:  #efefef;
+  background-color:  #d1e6e0;
   height: 2rem;
   padding: 20px;
   font-size: 25px;
 }
 
 .section3{
-  background-color:  #efefef;
+  background-color:  #d1e6e0;
   height: 2rem;
   padding: 20px;
   font-size: 25px;
@@ -98,7 +108,7 @@ h4 {
   padding: 10px;
   margin: 20px auto 10px;
   /* background color 5 */
-  background-color: #e67651;
+  background-color:#FFFFFF;
   border-radius: 5px;
 }
 
