@@ -12,12 +12,6 @@ black1: #181818
 black2: #000000
  */
 
-/* Paste in <head> of index.html */
-/* <link
-      href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap"
-      rel="stylesheet"
-    /> */
-
 /* Organizational */
 * {
   padding: 0;
@@ -25,10 +19,54 @@ black2: #000000
   text-align: center;
 }
 
+
+#header{
+  font-size: 2rem;
+}
+
+.section1{
+  background-color: #e67651;
+  height: 2rem;
+  padding: 20px;
+  font-size: 25px;
+  border-bottom-color: black;
+}
+.section2{
+  background-color:  #efefef;
+  height: 2rem;
+  padding: 20px;
+  font-size: 25px;
+}
+
+.section3{
+  background-color:  #efefef;
+  height: 2rem;
+  padding: 20px;
+  font-size: 25px;
+}
+.search{
+  width: 400px;
+}
+
+.todayOverview{
+  background-color: #efefef;
+  color: black;
+}
+
+
+.footer{
+  background-color: #efefef;
+  font:black;
+}
+
+.footerText{
+  color: black;
+}
+
 body {
   /* background color 0 */
-  background-color: #FFFFFF;
-  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #ffffff;
+  font-family: "Source Sans Pro", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -45,7 +83,7 @@ h4 {
   font-weight: 400;
   text-align: center;
   /* color 11 */
-  color: white;
+  color: #FFFFFF;
   padding: 0;
   margin: 5px;
 }
@@ -60,7 +98,7 @@ h4 {
   padding: 10px;
   margin: 20px auto 10px;
   /* background color 5 */
-  background-color: #308576;
+  background-color: #e67651;
   border-radius: 5px;
 }
 
@@ -68,10 +106,16 @@ h4 {
   width: 85%;
   margin: 10px auto 5px;
   /* background color 2 */
-  background-color: #FFFFFF;
+  background-color: #308576;
   padding: 10px;
   border-radius: 5px;
 }
+
+.dashboard{
+  background-color:#c9c9c9;
+  color: black;
+}
+
 
 /* Lists: */
 
@@ -143,7 +187,6 @@ tr {
 td {
   text-align: left;
 }
-
 
 /* Button (General Use) */
 

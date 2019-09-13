@@ -1,10 +1,12 @@
 import React from "react";
+import Dashboard from "./Dashboard";
 import "./App.css";
+import "./media-queries.css";
 
 function App() {
   return (
-    <div className="container-outer">
-      <h1>This is the App</h1>
+    <div>
+      <Dashboard />
     </div>
   );
 }
